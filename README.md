@@ -11,9 +11,6 @@ Foram utilizados alguns frameworks para facilitar o desenvolvimento, como: Sprin
 * Para melhor acesso, toda a API já está documentada para acessar via Swagger... basta acessar "localhost:8080/swagger-ui.html" que terá acesso a todos os contratos. Pelo Swagger é possível visualizar exemplos de estrutura que deverá ser enviada e também da forma que será o retorno.
     > se for executar em outra máquina, altere o localhost do H2 e do Swagger para o ip correto.
 * Existem testes unitários que foram feitos a título de exemplo, um para camada service de clientes, outra para camada service de equipamentos e outro para camada de ordem de serviço... São testes unitários e apenas exemplifica a chamada e comparação.
-* A "OrdemServicoService" é a única classe que está documentada (ao meu ver é a que contém mais processos mais ainda assim ficou bem simples sua utilização).
+* A "OrdemServicoService" é a única classe que está documentada (ao meu ver é a que contém mais processos mas ainda assim ficou bem simples sua utilização).
 * Em todas as Controllers, tem métodos para fazer o CRUD.
 * A Controller OrdemServicoController, possui ainda uma consulta paginada onde é possível incluir filtros para facilitar a busca, como tipo do estágio, cliente, equipamento etc.
-
-
-
